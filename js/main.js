@@ -470,3 +470,11 @@
         
         
 })(jQuery);
+
+/* 사업자 정보확인
+    * ------------------------------------------------------ */
+const onOpen = document.querySelector('#onopen');
+onOpen.addEventListener('click', () => {
+  const url = 'http://www.ftc.go.kr/bizCommPop.do?wrkr_no=5142867391';
+  window.open(url, 'bizCommPop', 'width=750, height=700;');
+});
