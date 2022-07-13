@@ -2254,6 +2254,19 @@ html.no-csstransitions .home-content__main {
     white-space: nowrap;
 }
 
+.stats__count2 {
+    font-family: "montserrat-bold", sans-serif;
+    font-size: 5rem;
+    line-height: 1;
+    color: #FFFFFF;
+    position: relative;
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
 .stats h5 {
     font-family: "montserrat-semibold", sans-serif;
     margin-top: 1.8rem;
