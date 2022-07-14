@@ -2306,12 +2306,7 @@ html.no-csstransitions .home-content__main {
     .stats__col {
         margin: 1.5rem 0;
     }
-    .stats__col:nth-child(n) {
-        border: none;
-    }
-    .stats__col:nth-child(2n+1) {
-        border-right: 1px solid rgba(255, 255, 255, 0.25);
-    }
+
 }
 
 @media only screen and (max-width: 800px) {
